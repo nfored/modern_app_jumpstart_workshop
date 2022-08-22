@@ -1,0 +1,4 @@
+rateLimit:
+  rate: 10r/s
+  zoneSize: 10M
+  key: ${binary_remote_addr}
