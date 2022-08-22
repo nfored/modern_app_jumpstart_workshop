@@ -69,3 +69,6 @@ spec:
         proxy:
           upstream: api
           rewritePath: /images
+    - name: recommendations-v2
+      service: recommendations-v2
+      port: 8001
