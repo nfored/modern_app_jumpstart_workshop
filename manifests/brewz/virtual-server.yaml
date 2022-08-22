@@ -62,7 +62,7 @@ spec:
           upstream: inventory
           rewritePath: /api/inventory
     - path: /api/recommendations
-    splits:
+      splits:
         - weight: 90
           action:
             proxy:
@@ -78,6 +78,3 @@ spec:
         proxy:
           upstream: api
           rewritePath: /images
-    - name: recommendations-v2
-      service: recommendations-v2
-      port: 8001
