@@ -9,5 +9,4 @@ spec:
     apPolicy: "default/brewz-api-security-policy"
     securityLog:
       enable: true
-      apLogConf: "default/logconf"
       logDest: "stderr"
