@@ -71,7 +71,7 @@ spec:
         - weight: 10
           action:
             proxy:
-              upstream: recommendations-v2
+              upstream: recommendations
               rewritePath: /api/recommendations
     - path: /images
       action:
