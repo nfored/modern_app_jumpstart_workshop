@@ -7,6 +7,3 @@ spec:
   waf:
     enable: true
     apPolicy: "default/brewz-api-security-policy"
-    securityLog:
-      enable: true
-      logDest: "stderr"
