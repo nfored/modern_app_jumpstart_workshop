@@ -4,7 +4,7 @@ kind: VirtualServer
 metadata:
   name: brewz
 spec:
-  host: brewz.f5demo.com
+  host: brewz.mcfeetershq.local
   policies:
    - name: waf-policy
   upstreams:
