@@ -7,7 +7,7 @@ spec:
   host: brewz.mcfeetershq.local
   policies:
    - name: waf-policy
-   - namespace: default
+     namespace: default
   upstreams:
     - name: spa
       service: spa
