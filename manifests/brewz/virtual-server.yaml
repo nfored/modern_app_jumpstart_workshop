@@ -4,7 +4,7 @@ kind: VirtualServer
 metadata:
   name: brewz
 spec:
-  host: brewz.mcfeetershq.local
+  host: brew.mcfeetershq.local
   policies:
    - name: waf-policy
      namespace: default
