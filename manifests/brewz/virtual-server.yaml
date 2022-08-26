@@ -3,6 +3,7 @@ apiVersion: k8s.nginx.org/v1
 kind: VirtualServer
 metadata:
   name: brewz
+  namespace: brewstore
 spec:
   host: brew.mcfeetershq.local
   policies:
